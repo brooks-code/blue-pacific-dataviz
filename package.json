@@ -1,0 +1,37 @@
+{
+    "name": "stacked-waves-visualization",
+    "version": "1.0.0",
+    "description": "A stacked-waves animation driven by JSON data, with year and key domains pickers —built with esbuild",
+    "homepage": "https://brooks-code.github.io/blue-pacific-dataviz",
+    "keywords": [
+      "dataviz",
+      "datawave",
+      "data visualization",
+      "data-driven",
+      "animated barplot",
+      "javascript",
+      "interactive design",
+      "pacific region",
+      "meaningful narratives",
+      "Reducing complexity",
+      "user experience"
+    ],
+    "scripts": {
+        "clean": "rm -rf dist",
+        "build": "npm run clean && node build.js",
+        "serve": "npm run build && npx serve dist",
+        "deploy": "gh-pages -d dist --depth=1"
+    },
+    "devDependencies": {
+        "esbuild": "^0.19.12",
+        "esbuild-sass-plugin": "^2.16.1",
+        "sass": "^1.89.2",
+        "serve": "^14.2.0"
+    },
+    "author": "36.270",
+    "license": "UNLICENSED",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/brooks-code/blue-pacific-dataviz.git"
+      }
+}

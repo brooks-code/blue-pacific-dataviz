@@ -1,0 +1,606 @@
+// Global Styles
+@use "sass:math";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
+
+$waveCount: 100;
+$waveDuration: 3000ms;
+$waveSkew: 12.5deg;
+$waveTranslate: 100px;
+$waveHeight: 65px;
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient(ellipse at bottom, #629adb 0%, #090a0f 100%);
+    font-family: sans-serif;
+}
+
+// Sea style (contains the waveplot)
+.sea {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    filter: drop-shadow(0 7px 20px #000000) blur(1px);
+}
+
+// Wave animation styles
+.wave {
+    width: calc(100% / #{$waveCount});
+    height: $waveHeight;
+    position: relative;
+    overflow: visible;
+}
+
+.wave_fade {
+    width: 100%;
+    height: 100%;
+    display: block;
+    animation: fade $waveDuration * 0.7 ease-in-out infinite alternate;
+    animation-play-state: running;
+}
+
+.wave_translate {
+    width: 100%;
+    height: 100%;
+    display: block;
+    animation: translate $waveDuration ease-in-out infinite alternate;
+    animation-play-state: inherit;
+    transform-origin: bottom center;
+}
+
+.wave_skew {
+    width: 100%;
+    height: 100%;
+    display: block;
+    animation: skew $waveDuration ease-in-out infinite alternate;
+    animation-play-state: inherit;
+    transform-origin: bottom center;
+}
+
+.wave_graphic {
+    width: 100%;
+    height: 60%;
+    border-radius: 50%;
+    background: #f00;
+}
+
+@for $i from 1 through $waveCount {
+    .wave:nth-child(#{$i}) .wave_fade {
+        animation-delay: math.div($i * -$waveDuration, $waveCount);
+    }
+
+    .wave:nth-child(#{$i}) .wave_skew {
+        animation-delay: math.div($i * -$waveDuration, $waveCount);
+    }
+
+    .wave:nth-child(#{$i}) .wave_translate {
+        animation-delay: math.div($i * -$waveDuration, $waveCount) - math.div($waveDuration, 2);
+    }
+}
+
+@keyframes fade {
+
+    0%,
+    5% {
+        opacity: 0.36;
+    }
+
+    100% {
+        opacity: 0.88;
+    }
+}
+
+@keyframes skew {
+    0% {
+        transform: skewY(-$waveSkew);
+    }
+
+    100% {
+        transform: skewY($waveSkew);
+    }
+}
+
+@keyframes translate {
+    0% {
+        transform: translateY($waveTranslate);
+    }
+
+    100% {
+        transform: translateY(-$waveTranslate);
+    }
+}
+
+.wave.hover-effect {
+    transform: translateY(-10px);
+    transition: transform 0.2s ease-out;
+}
+
+.wave.hover-effect .wave_graphic {
+    filter: brightness(120%) drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.5));
+    transition: filter 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+
+.wave.hover-effect .wave_fade,
+.wave.hover-effect .wave_translate,
+.wave.hover-effect .wave_skew {
+    transition: transform 0.2s ease-out;
+}
+
+// Tooltip styles
+#tooltip {
+    position: fixed;
+    pointer-events: none;
+    background: transparent;
+    color: #fff;
+    padding: 0.5em 1em;
+    font-size: 0.85em;
+    line-height: 1.2;
+    border-radius: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0s linear 0.2s;
+    transform: translate(-50%, -1em);
+    white-space: pre-line;
+    z-index: 100;
+}
+
+#tooltip.show {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0s;
+}
+
+#tooltip::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #fff;
+    transition: width 0.4s ease;
+}
+
+#tooltip.show::before {
+    width: calc(100% - 1.5em);
+}
+
+#tooltip.show::after {
+    transition-delay: 0.4s;
+    opacity: 0.3;
+}
+
+// Bottom menu styles
+.bottom-menu {
+    margin-top: auto;
+    background: rgba(0, 0, 0, 0.452);
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.middle-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+// play/pause button style (neumorphic)
+#toggle-animation {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2), -4px -4px 8px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+#toggle-animation:hover {
+    background-color: #474747;
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.2), inset -4px -4px 8px rgba(255, 255, 255, 0.1);
+}
+
+#toggle-animation:active {
+    transform: scale(1.1);
+}
+
+// Year toggle button
+.picker-group.year-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.year-label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#year-toggle-btn {
+    padding: 0.25em 0.75em;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s, transform 0.2s;
+}
+
+#year-toggle-btn:hover {
+    transform: scale(1.1);
+}
+
+#year-toggle-btn[aria-pressed="true"] {
+    background: rgba(255, 255, 255, 0.5);
+    border-color: #fff;
+    color: #000;
+}
+
+// Class picker (thematic areas)
+.picker-group.class-picker {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+label[for="class-picker"] {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+#class-picker {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: inline-block;
+    padding: 0.5em 1.5em 0.5em 0.75em;
+    font-size: 1rem;
+    line-height: 1;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s, transform 0.2s;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    &:focus {
+        outline: none;
+        border-color: #fff;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.4);
+    }
+
+    background-image: url("data:image/svg+xml;charset=UTF-8,\
+    <svg xmlns='http://www.w3.org/2000/svg' width='10' height='6'>\
+    <path fill='white' d='M0,0 L5,6 L10,0 Z'/>\
+    </svg>");
+    background-repeat: no-repeat;
+    background-position: right 0.75em center;
+    background-size: 10px 6px;
+}
+
+// Morphing bottomline styles
+#morph-container {
+    position: relative;
+    transform: none;
+    margin-right: auto;
+    filter: url(#threshold) blur(0.4px);
+    pointer-events: auto;
+    width: 200px;
+    height: 50px;
+    overflow: hidden;
+}
+
+#morph-container span {
+    position: absolute;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1;
+    color: rgb(196, 196, 196);
+    user-select: none;
+    pointer-events: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#morph-text2 {
+    z-index: 2;
+}
+
+#morph-text1 {
+    z-index: 1;
+}
+
+// Info button + info panel styles (lollipop animation)
+$info-size: 2rem;
+$panel-width: 300px;
+$panel-height: 200px;
+$lollipop-time: 600ms;
+$lollipop-ease: cubic-bezier(0.215, 0.61, 0.355, 1);
+
+#info-container {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 1000;
+}
+
+#info-button {
+    position: absolute;
+    bottom: 1.4rem;
+    right: 1rem;
+    z-index: 300;
+    pointer-events: auto;
+    width: $info-size;
+    height: $info-size;
+    border: none;
+    border-radius: 50%;
+    background: #2e2e2e;
+    color: #fff;
+    font-size: 1.25rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2), -4px -4px 8px rgba(255, 255, 255, 0.1);
+    transition: background 0.3s, transform 0.4s ease;
+
+    &:hover {
+        background: #474747;
+        transform: rotate(360deg);
+    }
+}
+
+#page-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s;
+    z-index: 100;
+}
+
+$lollipop-ease: cubic-bezier(0.4, 0, 0.2, 1);
+$panel-max-width: 90vw;
+$panel-max-height: 80vh;
+$panel-padding: 1.5rem;
+
+#info-panel {
+    color: #fff;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    pointer-events: auto;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px) saturate(150%);
+    -webkit-backdrop-filter: blur(20px) saturate(150%);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        width 600ms $lollipop-ease,
+        height 600ms $lollipop-ease,
+        padding 600ms $lollipop-ease,
+        border-radius 600ms $lollipop-ease,
+        bottom 600ms $lollipop-ease,
+        right 600ms $lollipop-ease,
+        opacity 200ms ease 480ms,
+        visibility 0s linear 480ms;
+    z-index: 200; // above overlay
+
+    .info-content {
+        padding: 1rem;
+        max-width: 40ch;
+        font-family: "Noto Serif", serif;
+        text-align: justify;
+        hyphens: auto;
+        -webkit-hyphens: auto;
+        opacity: 0;
+        transition: opacity 200ms ease 600ms;
+
+        // Headings
+        h1,
+        h2,
+        h3 {
+            text-align: center;
+            font-family: "Montserrat Medium", sans-serif;
+            transform: scale(0.94);
+        }
+
+        // Paragraphs
+        p {
+            margin-top: 1rem;
+            line-height: 1.6;
+        }
+
+        // Staggered fade-in spans
+        span {
+            display: inline;
+            opacity: 0;
+            filter: blur(4px);
+            animation: fade-in 0.6s forwards $lollipop-ease;
+            // allow hyphens if the word needs to break
+            hyphens: auto;
+            -webkit-hyphens: auto;
+        }
+    }
+
+    // OPEN STATE (example modifier)
+    &.active {
+        width: $panel-max-width;
+        height: $panel-max-height;
+        padding: $panel-padding;
+        bottom: 5vh; // adjust
+        right: 5vw; // adjust 
+        border-radius: 1rem;
+        opacity: 1;
+        visibility: visible;
+
+        .info-content {
+            opacity: 1;
+        }
+    }
+}
+
+// Overlay rules (if needed)
+#info-container.active #page-overlay,
+#info-container:hover #page-overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+@keyframes fade-in {
+    to {
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+
+#info-container.active #info-panel,
+#info-container:hover #info-panel {
+    width: auto;
+    height: auto;
+    pointer-events: auto;
+    max-width: $panel-max-width;
+    max-height: $panel-max-height;
+    padding: $panel-padding;
+    border-radius: 8px;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    border-color: rgba(255, 255, 255, 0.4) // top
+        rgba(0, 0, 0, 0.4) // right
+        rgba(0, 0, 0, 0.4) // bottom
+        rgba(255, 255, 255, 0.4); // left
+    opacity: 1;
+    visibility: visible;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    .info-content {
+        opacity: 1;
+    }
+}
+
+#info-panel::-webkit-scrollbar {
+    width: 8px;
+}
+
+#info-panel::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+}
+
+#info-panel::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+// Blockquote styles
+.info-content blockquote {
+    position: relative;
+    margin: 2rem 0;
+    padding: 1rem 1.5rem;
+    border-left: 0.4rem #6b7a8f solid;
+    background: #f5f7fa;
+    font-style: italic;
+    color: #333;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    border-radius: 0.5rem;
+    overflow: hidden; // Ensures the left border follows the rounded corners
+
+    p {
+        margin: 0;
+    }
+
+    footer {
+        margin-top: 0.75rem;
+        text-align: right;
+        font-style: normal;
+        font-weight: 500;
+        color: #6b7a8f;
+        font-size: 0.95rem;
+    }
+
+    &::before {
+        content: "“";
+        position: absolute;
+        top: 0.2rem;
+        left: 0.4rem;
+        font-size: 3rem;
+        color: #6b7a8f;
+        line-height: 1;
+        z-index: -1;
+    }
+}
+
+// Centered emphasis
+.info-content .centered-em {
+    text-align: center;
+    font-style: italic;
+    margin: 1.5rem 0;
+}
+
+// No data warning
+.no-data-warning {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid #333;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    text-align: center;
+    z-index: 10;
+}
+
+// Utility
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
