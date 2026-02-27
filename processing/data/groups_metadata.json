@@ -1,0 +1,1010 @@
+[
+  {
+    "group_number": 1,
+    "sentinels": [
+      "(INDICATOR) Indicator: (DC_TRF_TOTL) Political Leadership and Regionalism > The Pacific region is recognised as a leading contributor to\n            global discourse to ensure global actors align with regional initiatives to which\n            responds to the vulnerabilities and characteristics of the Pacific > Total assistance for development, by recipient countries",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 2,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SG_INF_ACCSS) The Pacific demonstrates strong and accountable leadership,\n            that is consistent with existing regional commitments on good governance, accountable\n            leadership, democratic principles, and values > Countries that adopt and implement constitutional, statutory\n            and/or policy guarantees for public access to information",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 3,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SG_STT_FPOS) Countries with national statistical legislation exists that\n            complies with the Fundamental Principles of Official Statistics",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 4,
+    "sentinels": [
+      "(INDICATOR) Indicator: (VA_EST) WGI: Voice and Accountability",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 5,
+    "sentinels": [
+      "(INDICATOR) Indicator: (PV_EST) WGI: Political Stability and Absence of Violence/Terrorism",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 6,
+    "sentinels": [
+      "(INDICATOR) Indicator: (GE_EST) WGI: Government Effectiveness",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 7,
+    "sentinels": [
+      "(INDICATOR) Indicator: (RQ_EST) WGI: Regulatory Quality",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 8,
+    "sentinels": [
+      "(INDICATOR) Indicator: (RL_EST) WGI: Rule of Law",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 9,
+    "sentinels": [
+      "(INDICATOR) Indicator: (CC_EST) WGI: Control of Corruption",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 10,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SI_COV_BENFTS) People Centred Development > The six pre-conditions to disability inclusion are recognised\n            and applied in the Pacific > Proportion of population covered by at least one social\n            protection benefit",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 11,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SG_REG_BRTH) Strengthened institutional capacity and capability in Pacific\n            island countries to promote and protect human rights, gender equality, equity, and\n            social inclusion > Proportion of children under 5 years of age whose births have\n            been registered with a civil authority",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 12,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SG_LGL_GENEQLFP) Legal frameworks that promote, enforce and monitor gender\n            equality (percentage of achievement, 0 - 100) - Area 1: overarching legal frameworks and\n            public life",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 13,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SG_LGL_GENEQVAW) Legal frameworks that promote, enforce and monitor gender\n            equality (percentage of achievement, 0 - 100) - Area 2: violence against women",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 14,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SG_LGL_GENEQEMP) Legal frameworks that promote, enforce and monitor gender\n            equality (percentage of achievement, 0 - 100) - Area 3: employment and economic benefits",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 15,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SG_LGL_GENEQMAR) Legal frameworks that promote, enforce and monitor gender\n            equality (percentage of achievement, 0 - 100) - Area 4: marriage and family",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 16,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SH_STA_MORT) Improved health outcomes for all Pacific Peoples particularly\n            vulnerable communities and marginalised groups > Maternal mortality ratio",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 17,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SH_HIV_INCD) Number of new HIV infections per 1,000 uninfected population",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 18,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SH_TBS_INCD) Tuberculosis incidence",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 19,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SH_STA_BRTC) Strengthened coverage, quality, accessibility, affordability,\n            and resilience of health and wellbeing services > Proportion of births attended by skilled health personnel",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 20,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SH_MED_DEN) Health worker density",
+      "(OCCUPATION) Occupation: (221) Professionals > Health Professionals > Medical Doctors",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 21,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SH_MED_DEN) Health worker density",
+      "(OCCUPATION) Occupation: (222) Nursing and Midwifery Professionals",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 22,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SH_MED_DEN) Health worker density",
+      "(OCCUPATION) Occupation: (2221) Nursing Professionals",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 23,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SH_MED_DEN) Health worker density",
+      "(OCCUPATION) Occupation: (2222) Midwifery Professionals",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 24,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SH_MED_DEN) Health worker density",
+      "(OCCUPATION) Occupation: (2261) Dentists",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 25,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SH_MED_DEN) Health worker density",
+      "(OCCUPATION) Occupation: (2262) Pharmacists",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 26,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SH_SAN_SAFE) Proportion of population using safely managed sanitation\n            services",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 27,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SH_PRV_SMOK) Improve healthy lifestyles across all communities including\n            increased participation in sports and physical activity > Age-standardised prevalence of current tobacco use among\n            persons aged 15 years and older",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 28,
+    "sentinels": [
+      "(INDICATOR) Indicator: (IC_GEN_MGTL) Pacific women and girls, in all their diversity, are safe and\n            have equitable equal share of resources, opportunities, and decision making > Proportion of women in managerial positions",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 29,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SL_TLF_NEET) Strengthened Pacific education curriculum and assessment\n            systems to meet employment and national development needs > Proportion of youth not in education, employment or training,\n            by sex and age",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 30,
+    "sentinels": [
+      "(INDICATOR) Indicator: (CR_3) Completion rate, upper secondary",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 31,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SH_IHR_CAPS) Strengthened institutional capacity and capability to address\n            national and regional health priorities > International Health Regulations (IHR) capacity",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (SPAR2_C01) State Party Annual Report 2 > State Party Annual Report 2: Policy, Legal and normative Instruments to implement IHR",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 32,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SH_IHR_CAPS) International Health Regulations (IHR) capacity",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (SPAR2_C02) State Party Annual Report 2: IHR Coordination, National IHR Focal Point functions and advocacy",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 33,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SH_IHR_CAPS) International Health Regulations (IHR) capacity",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (SPAR2_C03) State Party Annual Report 2: Financing",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 34,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SH_IHR_CAPS) International Health Regulations (IHR) capacity",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (SPAR2_C04) State Party Annual Report 2: Laboratory",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 35,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SH_IHR_CAPS) International Health Regulations (IHR) capacity",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (SPAR2_C05) State Party Annual Report 2: Surveillance",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 36,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SH_IHR_CAPS) International Health Regulations (IHR) capacity",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (SPAR2_C06) State Party Annual Report 2: Human resources",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 37,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SH_IHR_CAPS) International Health Regulations (IHR) capacity",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (SPAR2_C07) State Party Annual Report 2: Health emergency management",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 38,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SH_IHR_CAPS) International Health Regulations (IHR) capacity",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (SPAR2_C08) State Party Annual Report 2: Health services provision",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 39,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SH_IHR_CAPS) International Health Regulations (IHR) capacity",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (SPAR2_C09) State Party Annual Report 2: Infection prevention and control (IPC)",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 40,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SH_IHR_CAPS) International Health Regulations (IHR) capacity",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (SPAR2_C10) State Party Annual Report 2: Risk communication and community engagement (RCCE)",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 41,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SH_IHR_CAPS) International Health Regulations (IHR) capacity",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (SPAR2_C11) State Party Annual Report 2: Points of entry (PoEs) and border health",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 42,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SH_IHR_CAPS) International Health Regulations (IHR) capacity",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (SPAR2_C12) State Party Annual Report 2: Zoonotic diseases",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 43,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SH_IHR_CAPS) International Health Regulations (IHR) capacity",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (SPAR2_C13) State Party Annual Report 2: Food safety",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 44,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SH_IHR_CAPS) International Health Regulations (IHR) capacity",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (SPAR2_C14) State Party Annual Report 2: Chemical events",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 45,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SH_IHR_CAPS) International Health Regulations (IHR) capacity",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (SPAR2_C15) State Party Annual Report 2: Radiation emergencies",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 46,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SE_ACS_ELECT) Improved access to quality, relevant, equitable, accessible,\n            affordable, and inclusive formal and non-formal education for all Pacific learners,\n            including learners with disabilities > Proportion of schools with access to electricity",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (SECONDARY_LOWER) Institution > Institution: Lower Secondary School",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 47,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SE_ACS_ELECT) Proportion of schools with access to electricity",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (PRIMARY_ALL) Institution: Primary School",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 48,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SE_ACS_CMPTR) Proportion of schools with access to\u00a0computers for pedagogical\n            purposes",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (PRIMARY_ALL) Institution > Institution: Primary School",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 49,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SE_ACS_H2O) Proportion of schools with access to basic drinking water",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (SECONDARY_LOWER) Institution > Institution: Lower Secondary School",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 50,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SE_ACS_H2O) Proportion of schools with access to basic drinking water",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (PRIMARY_ALL) Institution: Primary School",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 51,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SE_ACC_HNDWSH) Proportion of schools with basic handwashing facilities",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (SECONDARY_LOWER) Institution > Institution: Lower Secondary School",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 52,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SE_ACC_HNDWSH) Proportion of schools with basic handwashing facilities",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (PRIMARY_ALL) Institution: Primary School",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 53,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SE_ACS_DISAB) Proportion of schools with access to adapted infrastructure and\n            materials for students with disabilities",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (SECONDARY_LOWER) Institution > Institution: Lower Secondary School",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 54,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SE_ACS_DISAB) Proportion of schools with access to adapted infrastructure and\n            materials for students with disabilities",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (PRIMARY_ALL) Institution: Primary School",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 55,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SE_ACS_DISAB) Proportion of schools with access to adapted infrastructure and\n            materials for students with disabilities",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (SECONDARY_UPPER) Institution: Upper Secondary School",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 56,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SE_PRE_PARTN) Participation rate in organised learning (one year before the\n            official primary entry age)",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 57,
+    "sentinels": [
+      "(INDICATOR) Indicator: (GER_5T8) Gross enrolment ratio for tertiary education",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 58,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SE_GC_TCAQ) Strengthened institutional capacity and capability to deliver\n            Pacific education outcomes > Trained teachers",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 59,
+    "sentinels": [
+      "(INDICATOR) Indicator: (EG_ACS_ELEC) Resource and Economic Development > Improved socioeconomic wellbeing of all Pacific peoples through\n            inclusive, resilient, and sustainable economic development > Proportion of population with access to electricity",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 60,
+    "sentinels": [
+      "(INDICATOR) Indicator: (NY_GDP_PCAP) Annual growth rate of real GDP per capita",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 61,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SL_EMP_EARN) Average hourly earnings",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 62,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SL_EMP_EARN) Average hourly earnings",
+      "(OCCUPATION) Occupation: (1) Managers",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 63,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SL_EMP_EARN) Average hourly earnings",
+      "(OCCUPATION) Occupation: (2) Professionals",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 64,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SL_EMP_EARN) Average hourly earnings",
+      "(OCCUPATION) Occupation: (3) Technicians and Associate Professionals",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 65,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SL_EMP_EARN) Average hourly earnings",
+      "(OCCUPATION) Occupation: (4) Clerical Support Workers",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 66,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SL_EMP_EARN) Average hourly earnings",
+      "(OCCUPATION) Occupation: (5) Services and Sales Workers",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 67,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SL_EMP_EARN) Average hourly earnings",
+      "(OCCUPATION) Occupation: (6) Skilled Agricultural, Forestry and Fishery Workers",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 68,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SL_EMP_EARN) Average hourly earnings",
+      "(OCCUPATION) Occupation: (7) Craft and Related Trades Workers",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 69,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SL_EMP_EARN) Average hourly earnings",
+      "(OCCUPATION) Occupation: (8) Plant and Machine Operators and Assemblers",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 70,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SL_EMP_EARN) Average hourly earnings",
+      "(OCCUPATION) Occupation: (9) Elementary Occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 71,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SL_TLF_UEM) Unemployment rate",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 72,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SL_TLF_UEM) Unemployment rate",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (PWD) Persons without disability"
+    ]
+  },
+  {
+    "group_number": 73,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SL_TLF_NEET) Proportion of youth not in education, employment or training,\n            by sex and age",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 74,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SI_RMT_COST) Improved intra-regional and international trade, including\n            sustainable labour mobility > Average remittance costs of sending $200 to a receiving country\n            as a proportion of the amount remitted",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 75,
+    "sentinels": [
+      "(INDICATOR) Indicator: (BX_TRF_PWKR) Volume of remittances (in United States dollars) as a\n            proportion of total GDP",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 76,
+    "sentinels": [
+      "(INDICATOR) Indicator: (ST_EEV_ACCSEEA) Improved collaboration and policies for the planning,\n            development, and management of sustainable tourism > Implementation of standard accounting tools to monitor the\n            economic and environmental aspects of tourism (SEEA tables)",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 77,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SPC_8_9_1) Tourism as a proportion of total GDP",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 78,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SPC_16_6_1) Improved policies to support macroeconomic resilience and\n            stability > Primary government expenditure as a proportion of original\n            approved budget",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 79,
+    "sentinels": [
+      "(INDICATOR) Indicator: (GR_G14_GDP) Total government revenue as a proportion of GDP",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 80,
+    "sentinels": [
+      "(INDICATOR) Indicator: (GC_GOB_TAXD) Proportion of domestic budget funded by domestic taxes",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 81,
+    "sentinels": [
+      "(INDICATOR) Indicator: (DT_TDS_DECT) Debt service as a proportion of exports of goods and services",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 82,
+    "sentinels": [
+      "(INDICATOR) Indicator: (GR_G14_GDP) Increased opportunities for sustainable diversification of\n            Pacific economies > Total government revenue as a proportion of GDP",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 83,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SPC_8_9_1) Tourism as a proportion of total GDP",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 84,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SL_TLF_MANF) Manufacturing employment as a proportion of total employment",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 85,
+    "sentinels": [
+      "(INDICATOR) Indicator: (VC_DSR_AFFCT) Climate change and disasters > All Pacific peoples have improved resilience to the impacts of\n            climate change and disasters > Number of people affected by disaster",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 86,
+    "sentinels": [
+      "(INDICATOR) Indicator: (VC_DSR_LSGP) Direct economic loss attributed to disasters relative to GDP",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 87,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SPC_11_b_2) Pacific governments and communities have developed and\n            strengthened capacity for adapting, building resilience, and responding to climate\n            change and disaster risks, particularly for the most vulnerable > Proportion of local governments that adopt and implement local\n            disaster risk reduction strategies",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 88,
+    "sentinels": [
+      "(INDICATOR) Indicator: (EG_FEC_RNEW) Improved climate change mitigation by effective management of a\n            just transitioning to low carbon, low emissions, and climate resilient infrastructure,\n            development, and technology > Renewable energy share in the total final energy consumption",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 89,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SPC_7_b_1) Installed renewable\u00a0electricity-generating capacity (watts per\n            capita)",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (TRE_ALL) Type of renewable energy > Type of renewable energy: All",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 90,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SPC_7_b_1) Installed renewable\u00a0electricity-generating capacity (watts per\n            capita)",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (TRE_BIO) Type of renewable energy: Bioenergy",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 91,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SPC_7_b_1) Installed renewable\u00a0electricity-generating capacity (watts per\n            capita)",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (TRE_GEO) Type of renewable energy: Geothermal",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 92,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SPC_7_b_1) Installed renewable\u00a0electricity-generating capacity (watts per\n            capita)",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (TRE_HYDRO) Type of renewable energy: Hydropower",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 93,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SPC_7_b_1) Installed renewable\u00a0electricity-generating capacity (watts per\n            capita)",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (TRE_SOLAR) Type of renewable energy: Solar",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 94,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SPC_7_b_1) Installed renewable\u00a0electricity-generating capacity (watts per\n            capita)",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (TRE_WIND) Type of renewable energy: Wind",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 95,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SPC_12_4_2) Oceans and environment > Strengthened waste management and reduction in all forms of\n            pollution and effective mitigation of various threats to the ocean and land environment\n            inclusive of nuclear contamination > Hazardous waste generated, per capita (Kg)",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 96,
+    "sentinels": [
+      "(INDICATOR) Indicator: (EN_MAR_BEALITSQ) Beach litter per square kilometer (Number)",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 97,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SPC_14_6_1) Improved sustainable management of fisheries > Progress by countries in the degree of implementation of\n            international instruments aiming to combat illegal, unreported and unregulated fishing\n            (level of implementation: 1 lowest to 5 highest)",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 98,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SPC_14_b_1) Degree of application of a\n            legal/regulatory/policy/institutional framework which recognizes and protects access\n            rights for small-scale fisheries (level of implementation: 1 lowest to 5 highest)",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 99,
+    "sentinels": [
+      "(INDICATOR) Indicator: (ER_RSK_LST) Reduced and halted biodiversity loss and risk of extinction of\n            threatened species, caused by multiple threats on both terrestrial and marine\n            environments > Red List Index",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 100,
+    "sentinels": [
+      "(INDICATOR) Indicator: (SPC_15_8_1) Countries adopting legislation for the prevention or control of\n            invasive alien species",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 101,
+    "sentinels": [
+      "(INDICATOR) Indicator: (AG_PRD_FIESMS) Improved climate resilience, food security, prosperity, and\n            wellbeing of all Pacific peoples including vulnerable communities and marginalised\n            groups through sustainable management of ocean and land-based ecosystems > Prevalence of moderate or severe food insecurity in the\n            population",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 102,
+    "sentinels": [
+      "(INDICATOR) Indicator: (ER_GRF_PLNTSTOR) Improved sustainable management of agriculture and food\n            systems > Plant genetic resources accessions stored ex situ (number)",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 103,
+    "sentinels": [
+      "(INDICATOR) Indicator: (IT_NET_BBND) Technology and Connectivity > Increased access of Pacific communities to affordable,\n            reliable, resilient, safe, secure, inclusive, and interoperable ICT services > Fixed Internet broadband subscriptions per 100\u00a0inhabitants",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 104,
+    "sentinels": [
+      "(INDICATOR) Indicator: (IT_NET_BBND) Fixed Internet broadband subscriptions per 100\u00a0inhabitants",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (IS_GE10M) Internet speed > Internet speed: 10 Mbit/s or above",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 105,
+    "sentinels": [
+      "(INDICATOR) Indicator: (IT_NET_BBND) Fixed Internet broadband subscriptions per 100\u00a0inhabitants",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (IS_2MT10M) Internet speed: 2 Mbit/s to less than 10 Mbit/s",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 106,
+    "sentinels": [
+      "(INDICATOR) Indicator: (IT_NET_BBND) Fixed Internet broadband subscriptions per 100\u00a0inhabitants",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (IS_256KT2M) Internet speed: 256 kbit/s to less than 2 Mbit/s",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 107,
+    "sentinels": [
+      "(INDICATOR) Indicator: (IT_USE_ii99) Proportion of individuals using the Internet",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 108,
+    "sentinels": [
+      "(INDICATOR) Indicator: (IT_MOB_4GNTWK) Proportion of population covered by at least a 4G mobile\n            network",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 109,
+    "sentinels": [
+      "(INDICATOR) Indicator: (NCSI_RANK) Strengthened cyber security measures to protect Pacific peoples\n            and systems from cyber threats > National Cyber Security Index",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 110,
+    "sentinels": [
+      "(INDICATOR) Indicator: (NCSI_POLI) Cybersecurity Policy",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 111,
+    "sentinels": [
+      "(INDICATOR) Indicator: (EGI) Strengthened enabling environment for an inclusive digital\n            economy and e-services > E-Goverment Index",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  },
+  {
+    "group_number": 112,
+    "sentinels": [
+      "(INDICATOR) Indicator: (OSI) Online service Index",
+      "(OCCUPATION) Occupation: (_T) All occupations",
+      "(COMPOSITE_BREAKDOWN) Composite breakdown: (_Z) Not applicable",
+      "(DISABILITY) Disability: (_T) No breakdown by disability"
+    ]
+  }
+]

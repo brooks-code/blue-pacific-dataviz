@@ -67,7 +67,7 @@ A GitHub hosted version of the [dataWave](https://brooks-code.github.io/blue-pac
 
 ## Data processing
 
-Curious about how to transition from an Excel spreadsheet to fully consumable data? The data processing notebook is available in this [repository](https://github.com/brooks-code/dataWave-data-processing-notebook).
+Curious about how to transition from an Excel spreadsheet to fully consumable data? The data processing notebook is available in the [processing](/processing/README.md) folder.
 
 ### Data structure
 
